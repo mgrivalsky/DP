@@ -6,10 +6,9 @@ export const Gallery = (props) => {
     <div id="portfolio" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
+          <h2>Galéria</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Objavte, ako naša aplikácia funguje v praxi. Prezrite si ukážky jednotlivých funkcií, ktoré sme navrhli tak, aby študentom a školským psychológom uľahčili každodennú prácu. Od jednoduchého plánovania sedení cez anonymnú schránku dôvery až po interaktívny chat – všetko pre lepšiu podporu študentov a efektívnejšiu komunikáciu v školskom prostredí.
           </p>
         </div>
         <div className="row">

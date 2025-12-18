@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Header = (props) => {
+export const HeaderMain = (props) => {
   return (
     <header id="header">
       <div className="intro">
@@ -16,7 +16,7 @@ export const Header = (props) => {
                   {props.data ? props.data.paragraph : "Loading"}
                 </p>
                 <a
-                  href="#about"
+                  href="#news"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   Zistiť viac

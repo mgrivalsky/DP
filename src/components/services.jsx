@@ -5,10 +5,9 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Our Services</h2>
+          <h2>Naše služby</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            V školskom prostredí je psychická pohoda študentov kľúčová pre ich úspech a zdravý vývoj. Naša aplikácia ponúka jednoduché a efektívne riešenia, ktoré pomáhajú školským psychológom poskytovať kvalitnú podporu presne tam, kde je potrebná.
           </p>
         </div>
         <div className="row">

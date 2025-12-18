@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const Navigation = () => {
+export const NavigationMain = () => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -28,33 +28,43 @@ export const Navigation = () => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#about" className="page-scroll">
-                O nás
+              <a href="#news" className="page-scroll">
+                Čo je nové
               </a>
             </li>
             <li>
-              <a href="#services" className="page-scroll">
-                Služby
-              </a>
-            </li>
-            <li>
-              <a href="#testimonials" className="page-scroll">
+              <a href="#testimonials2" className="page-scroll">
                 Schránka dôvery
               </a>
             </li>
             <li>
-              <a href="#portfolio" className="page-scroll">
-                Galéria
+              <a href="#QuickHelp" className="page-scroll">
+                Rýchla pomoc
               </a>
             </li>
+
+
+            <li>
+              <a href="#ReservationSystem" className="page-scroll">
+                Rezervácia sedení
+              </a>
+            </li>
+
+
+              <li>
+              <a href="#Expert" className="page-scroll">
+                Expertný systém
+              </a>
+            </li>
+
             <li>
               <a href="#contact" className="page-scroll">
                 Kontakt
               </a>
             </li>
             <li>
-              <Link to="/login" className="page-scroll">
-                Prihlásenie
+              <Link to="/" className="page-scroll">
+                Odhlásenie
               </Link>
             </li>
           </ul>
